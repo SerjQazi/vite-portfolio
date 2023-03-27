@@ -11,7 +11,9 @@ module.exports = {
         cursive: ['Train One, cursive'],
       },
       screens: {
-        'phone': '746px',
+        'xs': '430px',        
+        'phoneHorizontal': { 'raw': '(min-height: 343px)' },
+        'phoneHorizontalX': { 'raw': '(min-height: 344px)' },
         'ipadHorizontal': { 'raw': '(min-height: 698px)' },
         'portrait': { 'raw': '(min-height: 699px)' },
         'ipadXL': '1292px',
