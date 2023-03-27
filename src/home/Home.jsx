@@ -27,25 +27,25 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex flex-wrap items-center justify-center phoneHorizontal:flex-nowrap ipadHorizontal:flex-nowrap ipadXL:flex-nowrap portrait:flex-wrap">
+    <div className="flex flex-wrap items-center justify-center phoneHorizontal:flex-nowrap ipadHorizontal:flex-nowrap portraitX:flex-wrap portraitIpad:flex-wrap ipadXL:flex-nowrap">
       <div className="leftContainer flex w-full">
-        <div className="textContainer pt-4 pl-4 phoneHorizontal:pt-0 phoneHorizontalX:pl-6 ipadHorizontal:pl-20 portrait:pt-4 portrait:pl-4">
+        <div className="textContainer pt-4 pl-4 phoneHorizontal:pt-0 phoneHorizontalX:pl-6 ipadHorizontal:pl-20 portraitX:pt-4 portraitX:pl-10">
           <div className="header font-sans font-black uppercase text-slate-700">
-            <h3 className=" text-lg leading-4 phoneHorizontalX:leading-5 portrait:leading-4">
+            <h3 className=" text-lg leading-4 phoneHorizontalX:leading-5 portraitX:leading-4">
               Hi There!
             </h3>
-            <div className="mb-2 flex phoneHorizontal:mb-1 portrait:mb-2">
+            <div className="mb-2 flex phoneHorizontal:mb-1 portraitX:mb-2">
               <h2 className="text-2xl">I'M</h2>
               <h1 className="ml-2 font-cursive text-2xl text-yellow-500">
                 Serj Qazi
               </h1>
             </div>
 
-            <h3 className="mb-2 w-fit bg-yellow-500 px-2.5 py-0.5 text-sm phoneHorizontal:text-[0.7rem] phoneHorizontalX:mb-3 phoneHorizontalX:text-[0.75rem] portrait:mb-2 portrait:text-sm ">
+            <h3 className="mb-2 w-fit bg-yellow-500 px-2.5 py-0.5 text-sm phoneHorizontal:text-[0.7rem] phoneHorizontalX:mb-3 phoneHorizontalX:text-[0.75rem] portraitX:mb-2 portraitX:text-sm ">
               Frontend Developer
             </h3>
           </div>
-          <div className="mb-4 text-xs leading-5 text-slate-700 phoneHorizontal:text-[0.75rem] phoneHorizontal:leading-[1.05rem] phoneHorizontalX:leading-[1.15rem] portrait:text-xs portrait:leading-5">
+          <div className="mb-4 text-xs leading-5 text-slate-700 phoneHorizontal:text-[0.75rem] phoneHorizontal:leading-[1.05rem] phoneHorizontalX:leading-[1.15rem] portraitX:text-xs portraitX:leading-5">
             <p>
               A Frontend Developer with a passion for photography and graphic
               design based out of Guelph, Ontario. Fueled mostly by coffee, I
@@ -61,7 +61,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="mb-4 w-fit cursor-pointer font-sans text-sm font-bold uppercase  text-slate-700 duration-500 hover:scale-105 hover:shadow-lg hover:shadow-yellow-500/50 phoneHorizontal:mb-0 portrait:mb-4  ">
+          <div className="mb-4 w-fit cursor-pointer font-sans text-sm font-bold uppercase  text-slate-700 duration-500 hover:scale-105 hover:shadow-lg hover:shadow-yellow-500/50 phoneHorizontal:mb-0 portraitX:mb-4  ">
             <Link
               to={'/about'}
               className="flex items-center justify-center rounded-xl bg-yellow-500 px-4 py-2 lg:px-6 lg:py-2 2xl:px-6 2xl:py-4"
@@ -77,7 +77,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="portraitContainer w-full phoneHorizontal:w-[79.7%] phoneHorizontalX:w-[78.7%] portrait:w-full">
+      <div className="portraitContainer w-full phoneHorizontal:w-[79.7%] phoneHorizontalX:w-[78.7%] portraitX:w-full">
         <img src={selfPortrait} alt="" />
       </div>
     </div>
