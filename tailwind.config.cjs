@@ -12,7 +12,9 @@ module.exports = {
       },
       screens: {
         'phone': '746px',
-        'ipad': '954px',
+        'ipadHorizontal': { 'raw': '(min-height: 698px)' },
+        'portrait': { 'raw': '(min-height: 699px)' },
+        'ipadXL': '1292px',
         '3xl': '1550px',
         // => @media (min-width: 640px) { ... }
       },
