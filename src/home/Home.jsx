@@ -36,7 +36,7 @@ const Home = () => {
             </h3>
             <div className="mb-2 flex phoneHorizontal:mb-1 portrait:mb-2">
               <h2 className="text-2xl">I'M</h2>
-              <h1 className="ml-2 font-cursive text-2xl text-yellow-500">
+              <h1 className="ml-2 font-cursive text-2xl text-yellow-500 sm:landscape:text-red-500">
                 Serj Qazi
               </h1>
             </div>

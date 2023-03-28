@@ -11,14 +11,13 @@ module.exports = {
         cursive: ['Train One, cursive'],
       },
       screens: {
-        'xs': '430px',        
-        'phoneHorizontal': { 'raw': '(min-height: 343px)' },
-        'phoneHorizontalX': { 'raw': '(min-height: 344px)' },
-        'ipadHorizontal': { 'raw': '(min-height: 698px)' },
-        'portrait': { 'raw': '(min-height: 699px)' },
-        'ipadXL': '1292px',
-        '3xl': '1550px',
-        // => @media (min-width: 640px) { ... }
+        'xs': '430px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+        '3xl': '1550px'
       },
     },
   },
