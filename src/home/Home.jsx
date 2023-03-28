@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <div className="flex flex-wrap items-center justify-center landscape:flex-nowrap ">
       <div className="leftContainer flex w-full">
-        <div className="textContainer">
+        <div className="textContainer pt-2 pl-2 landscape:pl-4 landscape:pt-2">
           <div className="header font-sans font-black uppercase text-slate-700">
             <h3 className=" text-lg leading-4">Hi There!</h3>
             <div className=" mb-2 flex ">
@@ -43,7 +43,7 @@ const Home = () => {
               Frontend Developer
             </h3>
           </div>
-          <div className="mb-4 text-xs leading-5 text-slate-700">
+          <div className="mb-4 text-xs text-slate-700 portrait:leading-5 landscape:mb-2 landscape:leading-[1.05rem]">
             <p>
               A Frontend Developer with a passion for photography and graphic
               design based out of Guelph, Ontario. Fueled mostly by coffee, I
@@ -59,7 +59,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="mb-4 w-fit cursor-pointer font-sans text-sm font-bold  uppercase text-slate-700 duration-500">
+          <div className="w-fit cursor-pointer font-sans text-sm font-bold uppercase text-slate-700 duration-500 portrait:mb-4">
             <Link
               to={'/about'}
               className="flex items-center justify-center rounded-xl bg-yellow-500 px-4 py-2 lg:px-6 lg:py-2 2xl:px-6 2xl:py-4"

@@ -11,7 +11,7 @@ import {
 
 const Social = () => {
   return (
-    <div className="ml-2 mr-1 h-full w-full">
+    <div className="ml-2 mr-1 h-full w-full landscape:ml-5">
       <ul className="my-10 flex h-5/6 w-full flex-col items-center justify-center rounded-lg bg-yellow-500">
         <li className="flex h-full w-full cursor-pointer items-center justify-center rounded-tr-lg rounded-tl-lg border-b-2 border-dashed border-slate-700 px-1 text-slate-600  duration-300 hover:bg-slate-700 hover:text-yellow-500">
           <Link
