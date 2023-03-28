@@ -11,7 +11,7 @@ module.exports = {
         cursive: ['Train One, cursive'],
       },
       screens: {
-        'xs': '430px',
+        'xs': '412px',
         'sm': '640px',
         'md': '768px',
         'lg': '1024px',
