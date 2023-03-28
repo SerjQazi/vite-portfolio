@@ -29,21 +29,23 @@ const Home = () => {
   return (
     <div className="flex flex-wrap items-center justify-center landscape:flex-nowrap ">
       <div className="leftContainer flex w-full">
-        <div className="textContainer pt-2 pl-2 landscape:pl-4 landscape:pt-2">
+        <div className="textContainer pt-2 pl-2 xs:pt-6 xs:pl-6 landscape:pl-4 landscape:pt-2 phone:landscape:pt-0  phone:landscape:pl-8 lg:landscape:pl-8">
           <div className="header font-sans font-black uppercase text-slate-700">
-            <h3 className=" text-lg leading-4">Hi There!</h3>
+            <h3 className=" text-lg leading-4 phone:landscape:text-xl phone:landscape:leading-5">
+              Hi There!
+            </h3>
             <div className=" mb-2 flex ">
-              <h2 className="text-2xl">I'M</h2>
-              <h1 className="ml-2 font-cursive text-2xl text-yellow-500">
+              <h2 className="text-2xl phone:landscape:text-3xl">I'M</h2>
+              <h1 className="ml-2 font-cursive text-2xl text-yellow-500 phone:landscape:text-3xl">
                 Serj Qazi
               </h1>
             </div>
 
-            <h3 className="mb-2 w-fit bg-yellow-500 px-2.5 py-0.5 text-sm ">
+            <h3 className="mb-2 w-fit bg-yellow-500 px-2.5 py-0.5 text-sm xs:mb-4 ">
               Frontend Developer
             </h3>
           </div>
-          <div className="mb-4 text-xs text-slate-700 portrait:leading-5 landscape:mb-2 landscape:leading-[1.05rem]">
+          <div className="mb-4 text-xs leading-5 text-slate-700 xs:mb-6 xs:leading-[1.32rem] landscape:mb-2 landscape:leading-[1.05rem] phone:landscape:mb-6">
             <p>
               A Frontend Developer with a passion for photography and graphic
               design based out of Guelph, Ontario. Fueled mostly by coffee, I
@@ -75,7 +77,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="portraitContainer w-full xs:landscape:w-[87.5%]">
+      <div className="portraitContainer w-full landscape:w-[87.5%] phone:landscape:w-[87%]">
         <img src={selfPortrait} alt="" />
       </div>
     </div>
