@@ -11,10 +11,15 @@ module.exports = {
         cursive: ['Train One, cursive'],
       },
       screens: {
-        'phone': '746px',
-        'ipad': '954px',
-        '3xl': '1550px',
-        // => @media (min-width: 640px) { ... }
+        'xs': '412px',
+        'sm': '640px',
+        'phone': '733px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        'ipad': '1366px',
+        '2xl': '1536px',
+        '3xl': '1600px'
       },
     },
   },
