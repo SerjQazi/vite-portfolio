@@ -32,7 +32,7 @@ const Profile = () => {
   }, []);
 
   return (
-    <div>
+    <div className="h-[95vh]">
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
