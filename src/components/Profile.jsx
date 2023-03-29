@@ -32,13 +32,24 @@ const Profile = () => {
   }, []);
 
   return (
-    <div className="h-[95vh]">
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+    <div className="landscape:flex">
+      <div className="navContainer h-fit landscape:h-auto landscape:w-[18vw] phone:landscape:w-[19vw]">
+        <div className="landscape:hidden ">
+          <TopNavigation />
+        </div>
+        <div className="hidden landscape:block">
+          <SideNavigation />
+        </div>
+      </div>
+
+      <div className="pageContainer w-full xs:h-[89.5vh] portrait:h-[89vh] landscape:h-auto landscape:w-[82%]">
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </div>
   );
 };
