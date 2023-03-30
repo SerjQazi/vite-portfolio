@@ -38,7 +38,7 @@ const Profile = () => {
         <div className="landscape:hidden ">
           <TopNavigation />
         </div>
-        <div className=" hidden h-full flex-col justify-center landscape:flex">
+        <div className="hidden h-full flex-col justify-center text-slate-700 landscape:flex">
           <SideNavigation />
         </div>
       </div>

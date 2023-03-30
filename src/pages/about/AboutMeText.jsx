@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMeText = () => {
   return (
-    <div className="mb-4 font-thin text-slate-700 xs:mb-5  landscape:mb-2">
+    <div className="mb-4 font-thin text-slate-700 xs:mb-5  landscape:mb-4">
       <div className="landscape:hidden">
         <h4 className="mb-1 text-[0.8rem] font-bold xs:mb-2 xs:text-sm">
           Experienced in:
@@ -37,7 +37,7 @@ const AboutMeText = () => {
         </ul>
       </div>
 
-      <p className="hidden text-xs leading-4 tracking-wide landscape:block ">
+      <p className="hidden text-xs leading-5 tracking-wide landscape:block ">
         A Frontend Developer with years of experience in building accessible and
         responsive web pages using <span className="font-bold">React.</span> I
         have worked with <span className="font-bold">RESTful APIs, Git,</span>{' '}
