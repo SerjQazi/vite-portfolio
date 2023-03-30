@@ -32,17 +32,18 @@ const Profile = () => {
   }, []);
 
   return (
-    <div className="landscape:flex">
-      <div className="navContainer h-fit landscape:h-auto landscape:w-[18vw] phone:landscape:w-[19vw]">
+    // adjustment for landscape height
+    <div className=" landscape:flex landscape:h-[94.5vh]">
+      <div className="navContainer relative h-fit landscape:h-full landscape:w-[18vw] phone:landscape:w-[19vw]">
         <div className="landscape:hidden ">
           <TopNavigation />
         </div>
-        <div className="hidden landscape:block">
+        <div className=" hidden h-full flex-col justify-center landscape:flex">
           <SideNavigation />
         </div>
       </div>
 
-      <div className="pageContainer w-full xs:h-[89.5vh] portrait:h-[89vh] landscape:h-auto landscape:w-[82%]">
+      <div className="pageContainer w-full xs:h-[89.5vh] portrait:h-[89vh] landscape:h-auto landscape:w-[82%] landscape:overflow-auto">
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />

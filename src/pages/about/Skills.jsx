@@ -17,96 +17,91 @@ import {
 
 const Skills = () => {
   return (
-    <>
-      <div className="mx-20 mt-4 mb-5 flex items-center justify-center border-2 border-dashed border-slate-400 border-opacity-50 sm:my-6 phone:my-4 xl:mx-32 2xl:mx-36">
-        <h3 className="py-1 text-lg font-bold uppercase tracking-widest text-yellow-500 sm:py-2 sm:tracking-[0.35em] phone:py-0.5 phone:text-base phone:tracking-widest xl:py-1 xl:text-2xl xl:tracking-[0.35em] 2xl:py-2 2xl:text-2xl">
+    <div className="py-2 xs:py-4 landscape:py-2">
+      <div className="mx-20 mb-4 flex items-center justify-center border-2 border-dashed border-slate-400 border-opacity-50 landscape:mb-2 phone:landscape:mb-4 ">
+        <h3 className="py-1 text-lg font-bold uppercase tracking-widest text-yellow-500 landscape:text-sm">
           Skills
         </h3>
       </div>
 
-      <div className="text-xl text-yellow-500 sm:text-4xl phone:text-sm lg:text-sm xl:text-2xl 2xl:text-4xl">
-        <ul className="grid grid-cols-4 tracking-wider phone:grid-cols-6 lg:grid-cols-4">
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+      <div className="text-xl text-yellow-500">
+        <ul className="grid grid-cols-4 tracking-wider landscape:grid-cols-6">
+          <li className="mb-3 flex flex-col items-center justify-center landscape:mb-1 landscape:text-xs">
             <FaReact />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               React
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-3 flex flex-col items-center justify-center landscape:mb-1 landscape:text-xs">
             <SiJavascript />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               JavaScript
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-3 flex flex-col items-center justify-center landscape:mb-1 landscape:text-xs">
             <SiJquery />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               jQuery
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-3 flex flex-col items-center justify-center landscape:mb-1 landscape:text-xs">
             <SiHtml5 />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               HTML 5
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-3 flex flex-col items-center justify-center landscape:mb-1 landscape:text-xs">
             <SiCss3 />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               CSS 3
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-3 flex flex-col items-center justify-center landscape:mb-1 landscape:text-xs">
             <FaSass />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               SASS
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-3 flex flex-col items-center justify-center landscape:mb-1 landscape:text-xs">
             <SiTailwindcss />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               Tailwind
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-3 flex flex-col items-center justify-center landscape:mb-1 landscape:text-xs">
             <SiGithub />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               GitHub
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-0 flex flex-col items-center justify-center landscape:text-xs">
             <SiFirebase />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               Firebase
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+          <li className="mb-0 flex flex-col items-center justify-center landscape:text-xs">
             <FaDatabase />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               RESTful API
             </p>
           </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 phone:hidden lg:mb-1 lg:flex">
-            <VscDebugAll />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
-              Debugging
-            </p>
-          </li>
-          <li className="mb-3 flex flex-col items-center justify-center phone:mb-2 lg:mb-1">
+
+          <li className="mb-0 flex flex-col items-center justify-center landscape:text-xs">
             <IoMdTabletPortrait />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:mb-2 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               Responsive
             </p>
           </li>
-          <li className="col-span-4 mb-4 flex flex-col items-center justify-center phone:col-span-1 phone:mb-2 lg:col-span-4 lg:mb-1 xl:mb-2">
+          <li className="mb-0 flex flex-col items-center justify-center landscape:text-xs">
             <FaUniversalAccess />
-            <p className="mt-2 text-center text-xs font-thin text-slate-100 sm:mt-3 sm:text-sm phone:mt-2 phone:text-[0.5rem] lg:mt-1 lg:text-[0.7rem] xl:text-sm">
+            <p className="mt-2 text-center text-xs font-thin text-slate-100 landscape:mt-1 landscape:text-[0.5rem]">
               A11Y
             </p>
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 
