@@ -55,7 +55,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="bg-slate-700 drop-shadow-lg landscape:mx-6">
+        <div className="mx-2 bg-slate-700 drop-shadow-lg landscape:mx-6">
           <Skills />
         </div>
       </div>
