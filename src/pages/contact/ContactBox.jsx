@@ -41,7 +41,7 @@ const ContactBox = () => {
         />
 
         <button
-          className="mt-4 flex items-center justify-center rounded-md bg-yellow-500 px-5 py-1 text-base font-bold uppercase tracking-widest md:mt-8 md:py-2 md:px-7 md:text-lg lg:landscape:mt-4"
+          className="mt-4 flex items-center justify-center rounded-md bg-yellow-500 px-5 py-1 text-base font-bold uppercase tracking-widest md:mt-6 md:py-2 md:px-7 md:text-lg lg:landscape:mt-4"
           type="submit"
         >
           Send
