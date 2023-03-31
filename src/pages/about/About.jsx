@@ -13,7 +13,7 @@ const About = () => {
         </h1>
       </div>
       <div className="textContainer mx-2 landscape:mx-6">
-        <div className="mb-2 flex items-center justify-start text-sm font-light leading-5 xs:mb-4 xs:text-base landscape:mb-4">
+        <div className="mb-2 items-center justify-start text-sm font-light leading-5 xs:mb-4 xs:flex xs:text-sm sm:text-base landscape:mb-4">
           <h2 className="text-base ">
             I'm <span className="font-bold">Serj Qazi,</span>
           </h2>
