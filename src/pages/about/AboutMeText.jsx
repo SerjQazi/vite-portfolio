@@ -2,12 +2,12 @@ import React from 'react';
 
 const AboutMeText = () => {
   return (
-    <div className="mb-4 font-thin text-slate-700 xs:mb-5  landscape:mb-4">
+    <div className="mb-4 font-thin text-slate-700 xs:mb-5 landscape:mb-4">
       <div className="landscape:hidden">
-        <h4 className="mb-1 text-[0.8rem] font-bold xs:mb-2 xs:text-sm">
+        <h4 className="mb-1 text-[0.8rem] font-bold xs:mb-2 xs:text-sm md:text-base">
           Experienced in:
         </h4>
-        <ul className="ml-6 text-xs tracking-wide">
+        <ul className="ml-6 text-xs tracking-wider md:text-sm">
           <li className="mb-0.5 list-disc xs:mb-1">
             <p>
               <span className="font-bold">Accessible</span> and{' '}
@@ -37,7 +37,7 @@ const AboutMeText = () => {
         </ul>
       </div>
 
-      <p className="hidden text-xs leading-5 tracking-wide landscape:block ">
+      <p className="hidden text-xs leading-5 tracking-wide md:text-sm md:leading-6 landscape:block lg:landscape:text-base ">
         A Frontend Developer with years of experience in building accessible and
         responsive web pages using <span className="font-bold">React.</span> I
         have worked with <span className="font-bold">RESTful APIs, Git,</span>{' '}
