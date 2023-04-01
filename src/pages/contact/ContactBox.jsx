@@ -4,7 +4,12 @@ import { IoMdPaperPlane } from 'react-icons/all';
 const ContactBox = () => {
   return (
     <div className="flex flex-col items-center justify-center text-slate-700">
-      <form className="relative flex w-full flex-col items-center justify-center">
+      <form
+        method="post"
+        className="relative flex w-full flex-col items-center justify-center"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+
         <label htmlFor="name" className="sr-only">
           enter your name
         </label>
