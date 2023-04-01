@@ -43,7 +43,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="pageContainer w-full xs:min-h-[89.5vh] portrait:min-h-[88vh] md:portrait:min-h-[85vh] landscape:h-auto landscape:w-[82%] landscape:overflow-auto">
+      <div className="pageContainer w-full xs:h-[89.5vh] portrait:h-[89vh] md:portrait:h-[85vh] landscape:h-auto landscape:w-[82%] landscape:overflow-auto">
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
