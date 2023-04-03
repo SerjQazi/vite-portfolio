@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <div className="bg-slate-100 py-2 text-slate-700 xs:py-4 landscape:min-h-[94.4vh] landscape:py-4">
       <div className="mx-20 mb-4 flex items-center justify-center border-2 border-dashed border-slate-700 border-opacity-50 md:mx-36 landscape:mx-36 lg:landscape:mb-6">
-        <h1 className="py-2 text-center text-xl font-black uppercase tracking-widest text-slate-700 md:text-3xl lg:landscape:text-4xl">
+        <h1 className="py-2 text-center text-xl font-black uppercase tracking-widest text-slate-700 md:text-3xl smallTab:text-4xl lg:landscape:text-4xl">
           Portfolio
         </h1>
       </div>
@@ -23,13 +23,13 @@ const Portfolio = () => {
 
           <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:landscape:text-2xl">
                 Open Book
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:landscape:text-base">
                 React | JavaScript | HTML5 | SASS | API
               </h3>
-              <p className="text-xs tracking-normal lg:landscape:text-base">
+              <p className="text-xs tracking-normal smallTab:text-sm lg:landscape:text-base">
                 Search any title or author and see a list of books, the API
                 generates a list of books based on your search. The list can be
                 sorted alphabetically by title or numerically by year of
@@ -68,13 +68,13 @@ const Portfolio = () => {
 
           <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:landscape:text-2xl">
                 Robo Trivia
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:landscape:text-base">
                 React | JavaScript | HTML5 | SASS | Firebase
               </h3>
-              <p className="text-xs tracking-normal lg:landscape:text-base">
+              <p className="text-xs tracking-normal smallTab:text-sm lg:landscape:text-base">
                 A solo or multiplayer trivia game that uses an API to generate
                 questions & multiple choice answers. A simpler second API is
                 used to generate the avatars for each unique username and
@@ -114,13 +114,13 @@ const Portfolio = () => {
 
           <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:landscape:text-2xl">
                 Find My Beer
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:landscape:text-base">
                 React | JavaScript | HTML5 | SASS | API
               </h3>
-              <p className="text-xs tracking-normal lg:landscape:text-base">
+              <p className="text-xs tracking-normal smallTab:text-sm lg:landscape:text-base">
                 A way to find all the breweries in your state, the API generates
                 a list of breweries once you pick a state. The front of the card
                 displays name and address, and as you hover over each card the
@@ -159,13 +159,13 @@ const Portfolio = () => {
 
           <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:landscape:text-2xl">
                 Sanctuary Helper
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:landscape:text-base">
                 HTML5 | SASS
               </h3>
-              <p className="text-xs tracking-normal lg:landscape:text-base">
+              <p className="text-xs tracking-normal smallTab:text-sm lg:landscape:text-base">
                 A multi-page PSD conversion that is fully responsive on all
                 screen sizes. The mobile and tablet size includes an animated
                 collapsing nav styled to pixel perfection with SASS.

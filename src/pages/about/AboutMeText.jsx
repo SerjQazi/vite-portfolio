@@ -4,10 +4,10 @@ const AboutMeText = () => {
   return (
     <div className="mb-4 font-thin text-slate-700 xs:mb-5 landscape:mb-4">
       <div className="landscape:hidden">
-        <h4 className="mb-1 text-[0.8rem] font-bold xs:mb-2 xs:text-sm md:text-base">
+        <h4 className="mb-1 text-[0.8rem] font-bold xs:mb-2 xs:text-sm md:text-base smallTab:text-lg">
           Experienced in:
         </h4>
-        <ul className="ml-6 text-xs tracking-wider md:text-sm">
+        <ul className="ml-6 text-xs tracking-wider md:text-sm smallTab:text-base">
           <li className="mb-0.5 list-disc xs:mb-1">
             <p>
               <span className="font-bold">Accessible</span> and{' '}
