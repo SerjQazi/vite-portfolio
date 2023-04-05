@@ -14,7 +14,7 @@ const SideNavigation = () => {
         <img src={selfPortrait} alt="Self Portrait" />
       </div>
 
-      <ul className=" flex h-full flex-col justify-center bg-yellow-500 text-center font-sans text-[0.5rem] font-bold uppercase tracking-[0.35em] phone:landscape:text-[0.6rem] lg:landscape:text-xs xl:landscape:text-base">
+      <ul className=" flex h-full flex-col justify-center bg-yellow-500 text-center font-sans text-[0.5rem] font-bold uppercase tracking-[0.35em] phone:landscape:text-[0.6rem] lg:landscape:text-xs xl:landscape:text-sm">
         <li className="mb-0 flex h-full items-center justify-center  border-b border-slate-900 border-opacity-25">
           <NavLink
             to="/"
