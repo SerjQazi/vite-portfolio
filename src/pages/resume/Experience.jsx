@@ -11,11 +11,11 @@ const Resume = () => {
       </h3>
 
       <div className="">
-        <div className="mb-4 lg:portrait:mb-6">
+        <div className="mb-4 lg:portrait:mb-7">
           <h4 className="mb-0.5 text-base font-medium md:text-lg smallTab:text-xl lg:portrait:text-2xl">
             INTERMEDIATE FRONTEND DEVELOPER
           </h4>
-          <p className="mb-1 text-sm font-light md:text-base smallTab:text-lg lg:portrait:text-xl">
+          <p className="mb-1 text-sm font-light md:text-base smallTab:text-lg lg:portrait:mb-4 lg:portrait:text-xl">
             Bank of Montreal - BMO
           </p>
 
@@ -47,7 +47,7 @@ const Resume = () => {
             <li className="ml-6 mb-1 list-disc">
               <p>Worked in an agile environment using Kanban methodologies</p>
             </li>
-            <li className="ml-0 mt-2">
+            <li className="ml-0 mt-2 lg:portrait:mt-4">
               <p className="text-sm font-bold md:text-base smallTab:text-lg lg:portrait:text-xl">
                 Tech Stack :
               </p>
@@ -66,7 +66,7 @@ const Resume = () => {
           <h4 className="mb-0.5 text-base font-medium md:text-lg smallTab:text-xl lg:portrait:text-2xl">
             FRONTEND DEVELOPER
           </h4>
-          <p className="mb-1 text-sm font-light md:text-base smallTab:text-lg lg:portrait:text-xl">
+          <p className="mb-1 text-sm font-light md:text-base smallTab:text-lg lg:portrait:mb-4 lg:portrait:text-xl">
             Novela Neurotechnologies
           </p>
 
@@ -95,7 +95,7 @@ const Resume = () => {
             <li className="ml-6 mb-1 list-disc">
               <p>Created API schemas for new APIs</p>
             </li>
-            <li className="ml-0 mt-2">
+            <li className="ml-0 mt-2 lg:portrait:mt-4">
               <p className="text-sm font-bold md:text-base smallTab:text-lg lg:portrait:text-xl">
                 Tech Stack :
               </p>
