@@ -9,24 +9,24 @@ import bookSearch from '../../assets/project-logos/book-search.svg';
 const Portfolio = () => {
   return (
     <div className="bg-slate-100 py-2 text-slate-700 xs:py-4 lg:portrait:py-6 landscape:py-4">
-      <div className="mx-20 mb-4 flex items-center justify-center border-2 border-dashed border-slate-700 border-opacity-50 md:mx-36 lg:portrait:mx-48 lg:portrait:mb-6 landscape:mx-36 smallTab:landscape:mx-44 lg:landscape:mb-6">
-        <h1 className="py-2 text-center text-xl font-black uppercase tracking-widest text-slate-700 md:text-3xl smallTab:text-4xl lg:portrait:py-4 lg:portrait:text-5xl phone:landscape:text-xl lg:landscape:text-3xl">
+      <div className="mx-20 mb-4 flex items-center justify-center border-2 border-dashed border-slate-700 border-opacity-50 md:mx-36 lg:portrait:mx-48 lg:portrait:mb-6 landscape:mx-36 smallTab:landscape:mx-44 lg:landscape:mb-6 xl:landscape:mx-64 xl:landscape:mb-4">
+        <h1 className="py-2 text-center text-xl font-black uppercase tracking-widest text-slate-700 md:text-3xl smallTab:text-4xl xl:py-4 lg:portrait:py-4 lg:portrait:text-5xl phone:landscape:text-xl lg:landscape:text-3xl xl:landscape:py-2">
           Portfolio
         </h1>
       </div>
 
       <div className="mx-2 md:mx-6 landscape:mx-6">
         <div className="bookSearch mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6">
-          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.5rem]">
+          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.5rem] xl:landscape:w-[6.5rem]">
             <img src={bookSearch} alt="" />
           </div>
 
-          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
+          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem] xl:landscape:ml-16 xl:landscape:w-[45rem]">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl xl:landscape:text-xl">
                 Open Book
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base xl:landscape:text-sm">
                 React | JavaScript | HTML5 | SASS | API
               </h3>
               <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
@@ -62,16 +62,16 @@ const Portfolio = () => {
         </div>
 
         <div className="roboTrivia mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6">
-          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem]">
+          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem] xl:landscape:w-[6.5rem]">
             <img src={robot} alt="" />
           </div>
 
-          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
+          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem] xl:landscape:ml-16 xl:landscape:w-[45rem]">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl xl:landscape:text-xl">
                 Robo Trivia
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base xl:landscape:text-sm">
                 React | JavaScript | HTML5 | SASS | Firebase
               </h3>
               <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
@@ -108,16 +108,16 @@ const Portfolio = () => {
         </div>
 
         <div className="findMyBeer mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6">
-          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem]">
+          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem] xl:landscape:w-[6.5rem]">
             <img src={beer} alt="" />
           </div>
 
-          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
+          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem] xl:landscape:ml-16 xl:landscape:w-[45rem]">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl xl:landscape:text-xl">
                 Find My Beer
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base xl:landscape:text-sm">
                 React | JavaScript | HTML5 | SASS | API
               </h3>
               <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
@@ -153,16 +153,16 @@ const Portfolio = () => {
         </div>
 
         <div className="sanctuaryHelper flex items-center justify-center">
-          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem]">
+          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem] xl:landscape:w-[6.5rem]">
             <img src={couch} alt="" />
           </div>
 
-          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
+          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem] xl:landscape:ml-16 xl:landscape:w-[45rem]">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl xl:landscape:text-xl">
                 Sanctuary Helper
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base xl:landscape:text-sm">
                 HTML5 | SASS
               </h3>
               <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
