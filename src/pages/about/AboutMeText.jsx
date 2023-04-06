@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMeText = () => {
   return (
-    <div className="mb-4 font-thin text-slate-700 xs:mb-5 lg:portrait:mb-7 landscape:mb-4">
+    <div className="mb-4 font-thin text-slate-700 xs:mb-5 lg:portrait:mb-7 landscape:mb-4 xl:landscape:mb-6">
       <div className="landscape:hidden">
         <h4 className="mb-1 text-[0.8rem] font-bold xs:mb-2 xs:text-sm md:text-base smallTab:text-lg lg:portrait:text-xl">
           Experienced in:
