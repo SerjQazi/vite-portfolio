@@ -47,7 +47,7 @@ const Home = () => {
               Frontend Developer
             </h3>
           </div>
-          <div className="mb-4 text-xs font-thin leading-5 text-slate-700 xs:mb-6 xs:leading-[1.32rem] md:portrait:mb-8 md:portrait:text-base md:portrait:leading-6 lg:portrait:text-lg landscape:mb-2 landscape:leading-[1.05rem] phone:landscape:mb-6 lg:landscape:text-base xl:landscape:mb-14 ipad:landscape:mb-10 ipad:landscape:text-lg">
+          <div className="mb-4 text-xs font-thin leading-5 text-slate-700 xs:mb-6 xs:leading-[1.32rem] md:portrait:mb-8 md:portrait:text-base md:portrait:leading-6 lg:portrait:text-lg landscape:mb-2 landscape:leading-[1.05rem] phone:landscape:mb-6 lg:landscape:text-base xl:landscape:mb-14 xl:landscape:leading-7 ipad:landscape:mb-10 ipad:landscape:text-lg">
             <p>
               A Frontend Developer with a passion for photography and graphic
               design based out of Guelph, Ontario. Fueled mostly by coffee, I
