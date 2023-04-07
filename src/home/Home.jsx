@@ -79,9 +79,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="portraitContainer w-full landscape:w-[87.5%] phone:landscape:w-[87%]">
+      <div className="portraitContainer w-full landscape:w-[87.5rem] phone:landscape:w-[87rem]">
         <img
-          className="w-full object-cover md:portrait:h-[50vh] lg:portrait:h-[58.4vh] phone:landscape:h-[94.5vh] lg:landscape:h-auto xl:landscape:h-[90vh]"
+          className="w-full object-cover md:portrait:h-[50vh] lg:portrait:h-[58.4vh] phone:landscape:h-[94.5vh] lg:landscape:h-auto xl:landscape:h-[90vh] ipad:landscape:h-auto"
           src={selfPortrait}
           alt=""
         />
