@@ -18,7 +18,7 @@ const ContactBox = () => {
           id="name"
           name="name"
           placeholder="name"
-          className="mb-0 w-full rounded-md border border-slate-500 bg-slate-100 px-3 py-2 text-base placeholder-slate-400 shadow-sm focus:border-yellow-500 focus:outline-none focus:ring-1 focus:ring-yellow-500 md:text-lg smallTab:py-4 smallTab:text-xl lg:portrait:text-2xl xl:landscape:py-2 xl:landscape:text-sm"
+          className="mb-0 w-full rounded-md border border-slate-500 bg-slate-100 px-3 py-2 text-base placeholder-slate-400 shadow-sm focus:border-yellow-500 focus:outline-none focus:ring-1 focus:ring-yellow-500 md:text-lg smallTab:py-4 smallTab:text-xl lg:portrait:text-2xl xl:landscape:py-2 xl:landscape:text-sm 2xl:landscape:py-3 2xl:landscape:text-base"
         />
 
         <label htmlFor="email" className="sr-only">
@@ -29,7 +29,7 @@ const ContactBox = () => {
           id="email"
           name="email"
           placeholder="email@example.com"
-          className="mt-2 mb-0 w-full rounded-md border border-slate-500 bg-slate-100 px-3 py-2 text-base placeholder-slate-400 shadow-sm invalid:border-2 invalid:border-red-500 focus:border-yellow-500 focus:outline-none focus:ring-1 focus:ring-yellow-500 md:mt-4 md:text-lg smallTab:py-4 smallTab:text-xl lg:portrait:mt-6 lg:portrait:text-2xl xl:landscape:mt-1.5 xl:landscape:py-2 xl:landscape:text-sm"
+          className="mt-2 mb-0 w-full rounded-md border border-slate-500 bg-slate-100 px-3 py-2 text-base placeholder-slate-400 shadow-sm invalid:border-2 invalid:border-red-500 focus:border-yellow-500 focus:outline-none focus:ring-1 focus:ring-yellow-500 md:mt-4 md:text-lg smallTab:py-4 smallTab:text-xl lg:portrait:mt-6 lg:portrait:text-2xl xl:landscape:mt-1.5 xl:landscape:py-2 xl:landscape:text-sm 2xl:landscape:py-3 2xl:landscape:text-base"
         />
 
         <label htmlFor="message" className="sr-only">
@@ -42,11 +42,11 @@ const ContactBox = () => {
           placeholder="message"
           cols="30"
           rows="8"
-          className="mt-2 w-full resize-none rounded-md border border-slate-500 bg-slate-100 px-3 py-2 text-base placeholder-slate-400 shadow-sm focus:border-yellow-500 focus:outline-none focus:ring-1 focus:ring-yellow-500 md:mt-4 md:text-lg smallTab:py-4 smallTab:text-xl lg:portrait:mt-6 lg:portrait:text-2xl xl:landscape:mt-1.5 xl:landscape:py-2 xl:landscape:text-sm"
+          className="mt-2 w-full resize-none rounded-md border border-slate-500 bg-slate-100 px-3 py-2 text-base placeholder-slate-400 shadow-sm focus:border-yellow-500 focus:outline-none focus:ring-1 focus:ring-yellow-500 md:mt-4 md:text-lg smallTab:py-4 smallTab:text-xl lg:portrait:mt-6 lg:portrait:text-2xl xl:landscape:mt-1.5 xl:landscape:py-2 xl:landscape:text-sm 2xl:landscape:py-3 2xl:landscape:text-base"
         />
 
         <button
-          className="mt-4 flex items-center justify-center rounded-md bg-yellow-500 px-5 py-1 text-base font-bold uppercase tracking-widest md:mt-6 md:py-2 md:px-7 md:text-lg smallTab:py-3 smallTab:px-8 smallTab:text-xl lg:portrait:mt-8 lg:portrait:text-2xl lg:landscape:mt-4 xl:landscape:mt-3 xl:landscape:py-1 xl:landscape:text-base"
+          className="mt-4 flex items-center justify-center rounded-md bg-yellow-500 px-5 py-1 text-base font-bold uppercase tracking-widest md:mt-6 md:py-2 md:px-7 md:text-lg smallTab:py-3 smallTab:px-8 smallTab:text-xl lg:portrait:mt-8 lg:portrait:text-2xl lg:landscape:mt-4 xl:landscape:mt-3 xl:landscape:py-1 xl:landscape:text-base 2xl:landscape:py-2 2xl:landscape:text-lg"
           type="submit"
         >
           Send
