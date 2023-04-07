@@ -33,8 +33,8 @@ const Profile = () => {
 
   return (
     // adjustment for landscape height
-    <div className=" landscape:flex landscape:h-[94.5vh] lg:landscape:h-[75vh] xl:landscape:h-[90vh] ipad:landscape:h-[75vh] 2xl:landscape:h-[90vh]">
-      <div className="navContainer h-fit landscape:h-full landscape:w-[18vw] phone:landscape:w-[19vw]">
+    <div className=" landscape:flex landscape:h-[94.5vh] lg:landscape:h-[75vh] xl:landscape:h-[90vh] ipad:landscape:h-[75vh] 2xl:landscape:h-[90vh] 3xl:landscape:h-[48rem]">
+      <div className="navContainer h-fit landscape:h-full landscape:w-[18vw] phone:landscape:w-[19vw] 3xl:landscape:w-[22.5rem]">
         <div className="landscape:hidden ">
           <TopNavigation />
         </div>
