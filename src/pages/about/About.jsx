@@ -26,12 +26,12 @@ const About = () => {
 
       <div className="flex-row-reverse xl:flex ">
         <div className="mb-4 px-2 xs:mb-5 md:px-6 xl:w-1/2 lg:portrait:mb-7 landscape:mb-4 landscape:px-6 xl:landscape:mb-0 xl:landscape:py-4 2xl:landscape:pl-16">
-          <h3 className="mb-2 text-lg font-bold md:mb-4 md:text-xl smallTab:text-2xl lg:portrait:text-[1.65rem] xl:landscape:text-xl 2xl:landscape:mb-6 2xl:landscape:text-2xl">
+          <h3 className="mb-2 text-lg font-bold md:mb-4 md:text-xl smallTab:text-2xl lg:portrait:text-[1.65rem] xl:landscape:text-xl 2xl:landscape:mb-8 2xl:landscape:text-2xl">
             What I Do?
           </h3>
 
           <div className="xl:flex-col landscape:flex">
-            <div className="mb-4 flex items-center pl-2 landscape:mb-0 landscape:pl-0 xl:landscape:mb-5 2xl:landscape:mb-7">
+            <div className="mb-4 flex items-center pl-2 landscape:mb-0 landscape:pl-0 xl:landscape:mb-5 2xl:landscape:mb-10">
               <div className="logo flex w-20 items-center justify-center md:w-[5.5rem] smallTab:w-[6.5rem] lg:portrait:w-[8.5rem] phone:landscape:w-20 lg:landscape:w-[7.5rem] xl:landscape:w-[6rem] ">
                 <img src={webIcon} alt="" />
               </div>
