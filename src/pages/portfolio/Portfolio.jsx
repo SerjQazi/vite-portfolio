@@ -8,28 +8,28 @@ import bookSearch from '../../assets/project-logos/book-search.svg';
 
 const Portfolio = () => {
   return (
-    <div className="bg-slate-100 py-2 text-slate-700 xs:py-4 lg:portrait:py-6 landscape:min-h-[94.4vh] landscape:py-4">
-      <div className="mx-20 mb-4 flex items-center justify-center border-2 border-dashed border-slate-700 border-opacity-50 md:mx-36 lg:portrait:mx-48 lg:portrait:mb-6 landscape:mx-36 smallTab:landscape:mx-44 lg:landscape:mb-6">
-        <h1 className="py-2 text-center text-xl font-black uppercase tracking-widest text-slate-700 md:text-3xl smallTab:text-4xl lg:portrait:py-4 lg:portrait:text-5xl phone:landscape:text-xl lg:landscape:text-3xl">
+    <div className="bg-slate-100 py-2 text-slate-700 xs:py-4 lg:portrait:py-6 landscape:py-4 ipad:landscape:py-6 2xl:landscape:py-6 3xl:landscape:py-10">
+      <div className="mx-20 mb-4 flex items-center justify-center border-2 border-dashed border-slate-700 border-opacity-50 md:mx-36 lg:portrait:mx-48 lg:portrait:mb-6 landscape:mx-36 smallTab:landscape:mx-44 lg:landscape:mb-6 xl:landscape:mx-64 xl:landscape:mb-4 ipad:landscape:mb-8 2xl:landscape:mx-[24rem] 2xl:landscape:mb-6 3xl:landscape:mb-8">
+        <h1 className="py-2 text-center text-xl font-black uppercase tracking-widest text-slate-700 md:text-3xl smallTab:text-4xl xl:py-4 lg:portrait:py-4 lg:portrait:text-5xl phone:landscape:text-xl lg:landscape:text-3xl xl:landscape:py-2 ipad:landscape:py-4 ipad:landscape:text-[3.5rem] 2xl:landscape:py-2 2xl:landscape:text-4xl 3xl:landscape:py-4 3xl:landscape:text-[3.5rem]">
           Portfolio
         </h1>
       </div>
 
-      <div className="mx-2 md:mx-6 landscape:mx-6">
-        <div className="bookSearch mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6">
-          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.5rem]">
+      <div className="mx-2 flex-wrap md:mx-6 landscape:mx-6 xl:landscape:mx-6 ipad:landscape:mx-16 ipad:landscape:flex 2xl:landscape:mx-6 2xl:landscape:flex 3xl:landscape:mx-16">
+        <div className="bookSearch mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6 2xl:landscape:w-1/2 2xl:landscape:pr-3 3xl:landscape:mb-8">
+          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.5rem] xl:landscape:w-[6.5rem] 2xl:landscape:w-[10.5rem]">
             <img src={bookSearch} alt="" />
           </div>
 
-          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
+          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem] xl:landscape:ml-16 xl:landscape:w-[45rem] 2xl:landscape:ml-4">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl xl:landscape:text-xl 3xl:landscape:text-2xl">
                 Open Book
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base xl:landscape:text-sm 3xl:landscape:text-base">
                 React | JavaScript | HTML5 | SASS | API
               </h3>
-              <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base 3xl:landscape:text-lg">
                 Search any title or author and see a list of books, the API
                 generates a list of books based on your search. The list can be
                 sorted alphabetically by title or numerically by year of
@@ -37,7 +37,7 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <div className="buttonContainer mt-4 flex text-sm lg:portrait:text-xl lg:landscape:text-lg">
+            <div className="buttonContainer mt-4 flex text-sm lg:portrait:text-xl lg:landscape:text-lg 3xl:landscape:mt-5 3xl:landscape:text-xl">
               <div className="w-fit rounded-lg bg-yellow-500 px-4 py-1 lg:portrait:px-5 lg:portrait:py-2">
                 <Link
                   target="_blank"
@@ -61,20 +61,20 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="roboTrivia mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6">
-          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem]">
+        <div className="roboTrivia mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6 2xl:landscape:w-1/2 2xl:landscape:pl-3 3xl:landscape:mb-8">
+          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem] xl:landscape:w-[6.5rem] 2xl:landscape:w-[10.5rem]">
             <img src={robot} alt="" />
           </div>
 
-          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
+          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem] xl:landscape:ml-16 xl:landscape:w-[45rem] 2xl:landscape:ml-4">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl xl:landscape:text-xl 3xl:landscape:text-2xl">
                 Robo Trivia
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base xl:landscape:text-sm 3xl:landscape:text-base">
                 React | JavaScript | HTML5 | SASS | Firebase
               </h3>
-              <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base 3xl:landscape:text-lg">
                 A solo or multiplayer trivia game that uses an API to generate
                 questions & multiple choice answers. A simpler second API is
                 used to generate the avatars for each unique username and
@@ -83,7 +83,7 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <div className="buttonContainer mt-4 flex text-sm lg:portrait:text-xl lg:landscape:text-lg">
+            <div className="buttonContainer mt-4 flex text-sm lg:portrait:text-xl lg:landscape:text-lg 3xl:landscape:mt-5 3xl:landscape:text-xl">
               <div className="w-fit rounded-lg bg-yellow-500 px-4 py-1 lg:portrait:px-5 lg:portrait:py-2">
                 <Link
                   target="_blank"
@@ -107,20 +107,20 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="findMyBeer mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6">
-          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem]">
+        <div className="findMyBeer mb-4 flex items-center justify-center lg:portrait:mb-6 lg:landscape:mb-6 2xl:landscape:w-1/2 2xl:landscape:pr-3 3xl:landscape:mb-0">
+          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem] xl:landscape:w-[6.5rem] 2xl:landscape:w-[10.5rem]">
             <img src={beer} alt="" />
           </div>
 
-          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
+          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem] xl:landscape:ml-16 xl:landscape:w-[45rem] 2xl:landscape:ml-4">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl xl:landscape:text-xl 3xl:landscape:text-2xl">
                 Find My Beer
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base xl:landscape:text-sm 3xl:landscape:text-base">
                 React | JavaScript | HTML5 | SASS | API
               </h3>
-              <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base 3xl:landscape:text-lg">
                 A way to find all the breweries in your state, the API generates
                 a list of breweries once you pick a state. The front of the card
                 displays name and address, and as you hover over each card the
@@ -128,7 +128,7 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <div className="buttonContainer mt-4 flex text-sm lg:portrait:text-xl lg:landscape:text-lg">
+            <div className="buttonContainer mt-4 flex text-sm lg:portrait:text-xl lg:landscape:text-lg 3xl:landscape:mt-5 3xl:landscape:text-xl">
               <div className="w-fit rounded-lg bg-yellow-500 px-4 py-1 lg:portrait:px-5 lg:portrait:py-2">
                 <Link
                   target="_blank"
@@ -152,27 +152,27 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="sanctuaryHelper flex items-center justify-center">
-          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem]">
+        <div className="sanctuaryHelper flex items-center justify-center 2xl:landscape:w-1/2 2xl:landscape:pl-3 3xl:landscape:mb-0">
+          <div className="projectlogo w-20 md:portrait:w-[5.5rem] lg:portrait:w-[7.5rem] landscape:w-[5.5rem] lg:landscape:w-[7.8rem] xl:landscape:w-[6.5rem] 2xl:landscape:w-[10.5rem]">
             <img src={couch} alt="" />
           </div>
 
-          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem]">
+          <div className="projectInfo ml-4 w-80 md:mr-0 md:portrait:ml-6 md:portrait:w-[25rem] lg:portrait:w-[35rem] landscape:ml-6 landscape:w-[25rem] lg:landscape:ml-8 lg:landscape:w-[35rem] xl:landscape:ml-16 xl:landscape:w-[45rem] 2xl:landscape:ml-4">
             <div className="">
-              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl">
+              <h2 className="text-lg font-bold tracking-widest smallTab:text-xl lg:portrait:text-2xl lg:landscape:text-2xl xl:landscape:text-xl 3xl:landscape:text-2xl">
                 Sanctuary Helper
               </h2>
-              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <h3 className="mb-2 text-xs font-thin tracking-wide smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base xl:landscape:text-sm 3xl:landscape:text-base">
                 HTML5 | SASS
               </h3>
-              <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base">
+              <p className="text-xs tracking-normal smallTab:text-sm lg:portrait:text-lg lg:landscape:text-base 3xl:landscape:text-lg">
                 A multi-page PSD conversion that is fully responsive on all
                 screen sizes. The mobile and tablet size includes an animated
                 collapsing nav styled to pixel perfection with SASS.
               </p>
             </div>
 
-            <div className="buttonContainer mt-4 flex text-sm lg:portrait:text-xl lg:landscape:text-lg">
+            <div className="buttonContainer mt-4 flex text-sm lg:portrait:text-xl lg:landscape:text-lg 3xl:landscape:mt-5 3xl:landscape:text-xl">
               <div className="w-fit rounded-lg bg-yellow-500 px-4 py-1 lg:portrait:px-5 lg:portrait:py-2">
                 <Link
                   target="_blank"
