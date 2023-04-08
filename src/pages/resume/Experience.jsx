@@ -6,7 +6,7 @@ import Education from './Education';
 const Resume = () => {
   return (
     <div className="text-slate-700">
-      <h3 className="mb-2 text-lg font-bold uppercase md:text-xl smallTab:text-2xl lg:portrait:mb-4 lg:portrait:text-3xl xl:landscape:text-xl 2xl:landscape:text-2xl">
+      <h3 className="mb-2 text-lg font-bold uppercase md:text-xl smallTab:text-2xl lg:portrait:mb-4 lg:portrait:text-3xl lg:landscape:mb-2 xl:landscape:mb-2 xl:landscape:text-xl ipad:landscape:mb-4 ipad:landscape:text-3xl 2xl:landscape:mb-2 2xl:landscape:text-2xl 3xl:landscape:mb-4 3xl:landscape:text-3xl">
         Experience
       </h3>
 
@@ -47,7 +47,7 @@ const Resume = () => {
             <li className="ml-6 mb-1 list-disc">
               <p>Worked in an agile environment using Kanban methodologies</p>
             </li>
-            <li className="ml-0 mt-2 lg:portrait:mt-4 2xl:landscape:mt-3">
+            <li className="ml-0 mt-2 lg:portrait:mt-4 ipad:landscape:mt-5 2xl:landscape:mt-3 3xl:landscape:mt-5">
               <p className="text-sm font-bold md:text-base smallTab:text-lg lg:portrait:text-xl xl:landscape:text-base 2xl:landscape:text-lg">
                 Tech Stack :
               </p>
@@ -95,7 +95,7 @@ const Resume = () => {
             <li className="ml-6 mb-1 list-disc">
               <p>Created API schemas for new APIs</p>
             </li>
-            <li className="ml-0 mt-2 lg:portrait:mt-4 2xl:landscape:mt-3">
+            <li className="ml-0 mt-2 lg:portrait:mt-4 ipad:landscape:mt-5 2xl:landscape:mt-3 3xl:landscape:mt-5">
               <p className="text-sm font-bold md:text-base smallTab:text-lg lg:portrait:text-xl xl:landscape:text-base 2xl:landscape:text-lg">
                 Tech Stack :
               </p>
