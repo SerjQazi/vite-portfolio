@@ -25,13 +25,11 @@ I'm Serj Qazi a Frontend Web Developer & Photographer. I Spend most of my time c
 
 [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![HTML5 Badge](https://img.shields.io/badge/-HTML5-e34f26?style=for-the-badge&labelColor=black&logo=html5&logoColor=E34F26)](#) [![CSS3 Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&labelColor=black&logo=css3&logoColor=1572B6)](#) [![SASS Badge](https://img.shields.io/badge/-SASS-CC6699?style=for-the-badge&labelColor=black&logo=sass&logoColor=CC6699)](#) [![Tailwind Badge](https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&labelColor=black&logo=tailwindcss&logoColor=06B6D4)](#)
 
-
+<br />
 #### Currently Learning
 
-[![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![MongoDB Badge](https://img.shields.io/badge/-Mongo%20DB-FF9900?style=for-the-badge&labelColor=black&logo=mongodb&logoColor=FF9900)](#) [![Express Badge](https://img.shields.io/badge/-Express-65C179?style=for-the-badge&labelColor=black&logo=express&logoColor=65C179)](#)
+[![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![MongoDB Badge](https://img.shields.io/badge/-Mongo%20DB-FF9900?style=for-the-badge&labelColor=black&logo=mongodb&logoColor=FF9900)](#) [![Express Badge](https://img.shields.io/badge/-Express-65C179?style=for-the-badge&labelColor=black&logo=express&logoColor=65C179)](#) [![Wordpress Badge](https://img.shields.io/badge/-Wordpress-21759B?style=for-the-badge&labelColor=black&logo=wordpress&logoColor=21759B)](#)
 
-
-<br />
 <br />
 
 #### Bizness
