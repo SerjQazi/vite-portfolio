@@ -6,13 +6,9 @@ I'm Serj Qazi a Frontend Web Developer & Photographer. I Spend most of my time c
 
 :mailbox: Reach me out!
 
-[![GitHub Badge](https://img.shields.io/badge/-@qazi_serj-1ca0f1?style=flat&labelColor=1ca0f1&logo=github&logoColor=white&link=https://github.com/SerjQazi)](https://github.com/SerjQazi)
+[![Portfolio Badge](https://img.shields.io/badge/-SQ%20Portfolio-0e76a8?style=flat&labelColor=0e76a8&logo=googlechrome&logoColor=white)](https://www.serjqazi.com) [![GitHub Badge](https://img.shields.io/badge/-@qaziserj-1ca0f1?style=flat&labelColor=1ca0f1&logo=github&logoColor=white&link=https://github.com/SerjQazi)](https://github.com/SerjQazi) [![Linkedin Badge](https://img.shields.io/badge/-Serj%20Qazi-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/serjqazi/) [![Mail Badge](https://img.shields.io/badge/-Serj%20Qazi-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:sirajum.qazi@gmail.com)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Serj%20Qazi-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/serjqazi/)
-
-[![Mail Badge](https://img.shields.io/badge/-Serj%20Qazi-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:sirajum.qazi@gmail.com)
-
-[![Mail Badge](https://img.shields.io/badge/-@serjqazi_photography-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://instagram.com/serjqazi_photography) [![Mail Badge](https://img.shields.io/badge/-SQ%20Photography-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white)](https://youtube.com/@serjqaziphotography)
+[![Instagram Badge](https://img.shields.io/badge/-@serjqazi_photography-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://instagram.com/serjqazi_photography) [![Youtube Badge](https://img.shields.io/badge/-SQ%20Photography-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white)](https://youtube.com/@serjqaziphotography)
 
 ### CoderOne Newsletter
 
