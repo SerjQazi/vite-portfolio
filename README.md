@@ -12,7 +12,7 @@ A Frontend Developer with a passion for photography and graphic design based out
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40' width='100'>](https://serjqazi.com/)[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' width='80'>](https://github.com/SerjQazi)[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40' width='100'>](https://www.linkedin.com/in/serjqazi/)[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40' width='100'>](https://www.instagram.com/serjqazi_photography/)[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40' width='100'>](https://www.youtube.com/channel/@serjqaziphotography)
 
-<div style={disply:flex}>
+<div>
   ![GitHub stats](https://github-readme-stats.vercel.app/api?username=SerjQazi&show_icons=true&count_private=true) 
   ![GitHub streak stats](https://streak-stats.demolab.com/?user=SerjQazi)  
 </div>
