@@ -10,22 +10,14 @@ I'm Serj Qazi a Frontend Web Developer & Photographer. I Spend most of my time c
 
 [![Instagram Badge](https://img.shields.io/badge/-@serjqazi_photography-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://instagram.com/serjqazi_photography) [![Youtube Badge](https://img.shields.io/badge/-@serjqaziphotography-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white)](https://youtube.com/@serjqaziphotography)
 
-### CoderOne Newsletter
 
-Join the bi-weekly Newsletter among thousands of other developers and stay in the loop with Web Development, React, Security, Software Engineering, Jobs, AI, Professional Courses and a lot more.
-
-👉 [Join Here](https://islemmaboud.com/join-newsletter)
-
-<!-- TODO: Add last video link -->
 
 ### What I currently Do
 
-- 🔭 I’m currently working at @Toptal
+- 🔭 I’m currently working as a freelancer.
 - :computer: Most used line of code `git commit -m "Initial Commit"`
-- 🤔 I’m looking for help with Outstanding Video ideas.
-- 📫 How to reach me: islempenywis@gmail.com.
-- 😄 Pronouns: CoderOne, Ipenywis, islempenywis.
-- ⚡ Fun fact: I play games and go to the GYM very often.
+- 📫 How to reach me: sirajum.qazi@gmail.com.
+- ⚡ Fun fact: I play games and love to do street photography.
 
 #### Top Technologies
 
