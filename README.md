@@ -14,7 +14,7 @@ I'm Serj Qazi a Frontend Web Developer & Photographer. I Spend most of my time c
 
 ### What I currently Do
 
-- 🔭 I’m currently working as a freelancer.
+- 🔭 I’m currently working as a freelance web developer & photographer.
 - :computer: Most used line of code `git commit -m "Initial Commit"`
 - 📫 How to reach me: sirajum.qazi@gmail.com.
 - ⚡ Fun fact: I play games and love to do street photography.
@@ -23,7 +23,9 @@ I'm Serj Qazi a Frontend Web Developer & Photographer. I Spend most of my time c
 
 <!-- TODO: Make technologies links takes you to repositories -->
 
-[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![GraphQL Badge](https://img.shields.io/badge/-GraphQl-e535ab?style=for-the-badge&labelColor=black&logo=node.js&logoColor=e535ab)](#)
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![HTML5 Badge](https://img.shields.io/badge/-HTML5-e34f26?style=for-the-badge&labelColor=black&logo=html5&logoColor=E34F26)](#) [![CSS3 Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&labelColor=black&logo=css3&logoColor=1572B6)](#) [![Tailwind Badge](https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&labelColor=black&logo=tailwindcss&logoColor=06B6D4)](#)
+
+[![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)]
 
 ### Tutorials
 
